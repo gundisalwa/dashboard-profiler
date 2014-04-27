@@ -1,9 +1,8 @@
 {
   "name": "dashboard-profiler",
-  "main": "app.js",
+  "main": "dashboard-profiler.js",
   "version": "0.0.0",
   "authors": [
-    "jessie <jessie@apollo.com.ph>"
   ],
   "license": "MIT",
   "private": true,

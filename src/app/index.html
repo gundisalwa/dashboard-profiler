@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html ng-app="demoApp">
+  <head>
+    <meta charset="utf-8"/>
+    <title>ComponentDemo</title>
+    <!-- inject:vendor:css -->
+    <!-- endinject -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="/css/components/componentGraph/componentGraph.css">
+    <!-- endinject -->
+  </head>
+  <body ng-controller="ComponentGraphCtrl" >
+    <hgroup>
+      <h1>ComponentDemo</h1>
+    </hgroup>
+    <div component-graph dimensions='dash.dimensions'></div>
+    <!-- inject:vendor:js -->
+    <script src="/angular/angular.js"></script>
+    <script src="/angular-route/angular-route.js"></script>
+    <script src="/d3/d3.js"></script>
+    <script src="/underscore/underscore.js"></script>
+    <!-- endinject -->
+    <!-- inject:js -->
+    <script src="/app_controller.js"></script>
+    <script src="/components/componentGraph/componentGraph.js"></script>
+    <script src="/components/componentGraph/example.js"></script>
+    <script src="/dasboardsSample.js"></script>
+    <script src="/dashboard-profiler-templates.js"></script>
+    <script src="/app.js"></script>
+    <script src="/components/componentGraph/componentGraph-controller.js"></script>
+    <script src="/components/componentGraph/componentGraph-directive.js"></script>
+    <script src="/components/componentGraph/componentGraph-service.js"></script>
+    <!-- endinject -->
+  </body>
+</html>
