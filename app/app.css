@@ -1,0 +1,13 @@
+.container { 
+	background-color: red;
+}
+
+.container.something.somethingElse{
+	width: 400px
+}
+
+
+.containerP{
+	width: 40px;
+	height: 50px;
+}
